@@ -1,0 +1,39 @@
+/*------Reset y configuracion global-------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----variables de color (paleta profesional)--------*/
+:root{
+    --primary: #2c3e50;
+    --secondary: #3498db;
+    --accent: #e74c3c;
+    --sucess: #2ecc71;
+    --light: #ecf0f1;
+    --dark: #1a252f;
+    --white: #ffffff;
+    --shadow:rgba(0,0,0,0.1),
+}
+
+/*----- estilos generales------*/
+body{
+    font-family: 'seoge UI', Tahoma, Geneva Verdana, sans-serif;
+    background: linear-gradient(135deg, var(--secondary), #2c3e50) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/*----- contenedor principal ------*/
+.login-container{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------ tarjeta de login 
